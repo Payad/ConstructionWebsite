@@ -1,0 +1,542 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+/* header {
+    background-color: orange;
+    display: flex;
+    line-height: 1.5rem;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* Navigation */
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: rgb(0, 0, 0, 0.7) !important;
+}
+
+.navbar-brand {
+    color: orangered;
+    font-size: 10px;
+}
+
+img.constructionImage {
+    width: 50px;
+}
+
+div#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+.nav-link.active,
+.nav-link {
+    color: orangered !important;
+}
+
+/* phone image */
+img.phoneImage {
+    width: 10%;
+}
+
+/* call now text */
+span.callNow {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    margin-left: -10px;
+}
+
+/* Banner */
+img.constructionBanner {
+    width: 100%;
+    height: 25vh;
+    opacity: 0.5;
+}
+
+/* h1 */
+h1 {
+text-align: center;
+color: orangered;
+font-family: sans-serif;
+font-size: 25px;
+padding: 1rem;
+margin-top: 2rem;
+}
+
+/* introduction */
+.firstParagraph {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* workers-img */
+img.workers-img {
+    width: 100%;
+    padding: 1rem;
+}
+
+/* secondParagraph */
+.secondParagraph {
+    color: orangered;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* bulletpoint section */
+.bullet-points {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+h4 {
+    text-align: center;
+    padding-top: 2rem;
+    /* color: orangered; */
+    color: white;
+}
+
+img.blueprint {
+    width: 100%;
+    padding: 1rem;
+}
+
+ul {
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+/* offer section */
+.materials,
+.quality-work,
+.customer-satisfaction {
+    text-align: center;
+    color: orangered;
+    font-size: 2rem;
+    /* padding: 1rem; */
+}
+
+img.materials {
+    width: 80%;
+    box-shadow: 10px 10px grey;
+}
+img.quality-work {
+    width: 80%;
+    box-shadow: 10px 10px grey;
+}
+img.customer-satisfaction {
+    width: 80%;
+    box-shadow: 10px 10px grey;
+}
+img.construction-group {
+    width: 80%;
+    display: flex;
+    box-shadow: 10px 10px grey;
+    /* padding: 1rem; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+}
+
+h5.handshake {
+    /* padding: 1rem; */
+    padding-left: 1rem;
+}
+
+ul.offers {
+    color: rgb(0, 0, 0)
+}
+
+p.desc {
+    text-align: center;
+    padding: 1rem;
+}
+
+.firstOffer,
+.secondOffer,
+.thirdOffer {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+button.ctaBtn {
+    margin-bottom: 2rem;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    /* padding: 2px 25px; */
+    box-shadow: 10px 5px;
+    background-color: orangered;
+    border: inset;
+    width: 30%;
+    height: 3rem;
+}
+
+.consultation {
+    text-align: center;
+}
+
+.cta {
+    display: flex;
+    margin-left: 2px;
+}
+
+.arrow {
+    width: 20%;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-top: -1rem;
+}
+/* facebook icon */
+img.facebookImage {
+    width: 20px;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    margin: 1rem;
+}
+
+img.linkedInImage {
+    width: 22px;
+    margin: 1rem;
+}
+
+img.twitterImage {
+    width: 20px;
+    margin: 1rem;
+    margin-top: 1.2rem;
+}
+
+/* card */
+p.nocard {
+    font-size: 8px;
+    margin-left: 25%;
+    margin-top: -20px;
+}
+
+/* button.cta::after {
+    content: '';
+    background-image: url('images/curvedarrowleft-removebg-preview.png');
+    content: url('images/curvedarrowleft-removebg-preview.png')
+} */
+
+/* span learn more */
+span.learnMore {
+padding: 5px 15px;
+background-color: orangered;
+border-radius: 5px;
+box-shadow: 10px 5px;
+border: inset;
+}
+/* Footer */
+.footer {
+    background-color: rgb(0, 0, 0, 0.7);
+    /* display: flex; */
+    /* line-height: 20px; */
+    /* line-height: 1.5rem; */
+    /* line-height: 5vh; */
+    align-items: center
+}
+
+h5.llc {
+    color: orangered;
+    font-size: 14px;
+    text-align: center;
+    margin: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+    /* display: flex; */
+}
+
+.links1 {
+    font-size: 10px;
+    text-align: center;
+    /* margin-right: 2rem;
+    margin-left: 2rem; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.links2 {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    text-align: center;
+    color: orangered;
+    padding: 1rem;
+}
+
+.closed-captions {
+    text-align: center;
+    background-color: orangered;
+}
+
+/* icons */
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+/* facebookIcon */
+/* img.facebookImage {
+    width: 20px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+ } */
+ /* linkedin image */
+ /* .linkedInImage {
+    margin: 1rem;
+    margin-top: 1.2rem;
+ } */
+
+/* twitter image */
+/* img.twitterImage {
+    margin: 1rem;
+    margin-top: 1.2rem;
+}  */
+
+/* media width 768px */
+@media(min-width: 768px) {
+    /* header img */
+    img.constructionImage {
+        /* width: 20%; */
+        width: 100px;
+    }
+    .navbar-brand {
+        font-size: 30px;
+    }
+    img.phoneImage {
+        width: 5%;
+    }
+    span.callNow {
+        font-size: 15px;
+        /* margin-left: -50px; */
+        margin-left: -5rem;
+    }
+    img.constructionBanner {
+        height: 40vh;
+    }
+    .firstParagraph {
+        padding: 2rem;
+        font-size: 20px;
+    }
+    .flex {
+        display: flex;
+        align-items: center
+    }
+    img.workers-img {
+        width: 50%;
+    }
+    .bullet-points {
+        display: flex;
+        align-items: center
+    }
+    img.blueprint {
+        width: 50%;
+    }
+    ul {
+        padding-bottom: 0;
+        margin-left: initial;
+
+    }
+    /* img materials */
+    .materials {
+        margin-top: 2rem;
+    }
+    .firstOffer {
+        position: relative;
+    }
+    .f {
+        display: flex;
+    }
+    img.materials {
+        width: 50%;
+        margin-left: 20px;
+    }
+    p.desc {
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+    span.learnMore {
+        position: absolute;
+        /* top: 0; */
+        margin-top: -5%;
+        margin-left: 18%;
+    }
+
+    /* quality-work section */
+    .quality-work {
+        margin-top: 2rem;
+    }
+    img.quality-work {
+        width: 48.5%;
+        margin-left: 20px;
+        height: 40vh;
+    }
+
+    /* cx satisfaction section */
+    img.customer-satisfaction {
+        width: 48.5%;
+        margin-left: 20px;
+    }
+    h5.handshake {
+        margin-bottom: 2rem;
+    }
+
+    /* ul offers */
+    ul.offers {
+        display: table;
+        margin: auto;
+        margin-bottom: 2rem;
+        font-size: 20px;
+    }
+    /*  button.ctaBtn */
+    button.ctaBtn {
+        width: 50%;
+        height: 5rem;
+    }
+
+    /*  arrow button */
+    .arrow {
+        margin-top: -3rem;
+    }
+     /* consultation */
+     .consultation {
+        font-size: 1.5rem;
+     }
+     /* p.nocard */
+     p.nocard {
+        font-size: 15px;
+        margin-left: 30%;
+        margin-top: -40px;
+     }
+     /* footer */
+     /* construction */
+     h5.llc {
+        font-size: 30px;
+     }
+
+     /* links1 */
+     .links1 {
+        font-size: 20px;
+     }
+     /* links2 */
+     .links2 {
+        font-size: 15px;
+     }
+     /* span.address */
+     span.address {
+        font-size: 20px;
+     }
+     /* facebookIcon */
+     img.facebookImage {
+        width: 20px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+     }
+     /* linkedin image */
+     .linkedInImage {
+        margin: 1rem;
+        margin-top: 1.2rem;
+     }
+
+    /* twitter image */
+    img.twitterImage {
+        margin: 1rem;
+        margin-top: 1.2rem;
+    }
+
+     /* closed-captions */
+     .closed-captions {
+        line-height: 5;
+     }
+     /* span.copy */
+     span.copy {
+        font-size: 20px;
+     }
+
+     /* icons */
+     .icons {
+        display: flex;
+        justify-content: center;
+     }
+}
+@media (min-width: 1024px) {
+    .navbar-brand {
+        margin-right: 5rem;
+    }
+    span.callNow {
+        margin-left: 1rem;
+    }
+    img.constructionBanner {
+        height: 50vh;
+    }
+
+    h4 {
+        padding: 1.2rem;
+    }
+    /*  materials section */
+    .secondParagraph {
+        font-size: 1.5rem;
+    }
+    p.desc {
+        font-size: 1.8rem;
+    }
+    span.learnMore {
+        margin-left: 13%;
+    }
+    /* quality section */
+    img.quality-work {
+        width: 36.5%;
+    }
+
+    /* customer satisfaction */
+    img.customer-satisfaction {
+        width: 36.5%;
+    }
+    /* section 4 */
+    img.construction-group {
+        width: 60%;
+    }
+    /* cta button */
+    button.ctaBtn {
+        width: 40%;
+    }
+    /* arrow */
+    .arrow {
+        margin-top: -5rem;
+    }
+    /* no card */
+    p.nocard {
+        margin-top: -60px;
+    }
+
+    /* footer */
+    img.twitterImage {
+        margin-top: 1.2rem;
+    }
+
+    /* icons */
+    .icons {
+        /* margin-left: 42%; */
+        display: flex;
+        justify-content: center;
+    }
+}
