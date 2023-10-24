@@ -41,8 +41,18 @@ div#navbarNavAltMarkup {
 }
 
 /* phone image */
-img.phoneImage {
+/* img.phoneImage {
     width: 10%;
+} */
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+/* phone number */
+span.phoneNumber {
+    font-size: x-small;
+    color: white;
 }
 
 /* call now text */
@@ -50,7 +60,7 @@ span.callNow {
     font-size: 10px;
     text-align: center;
     color: white;
-    margin-left: -10px;
+    /* margin-left: -10px; */
 }
 
 /* Banner */
@@ -68,12 +78,30 @@ font-family: sans-serif;
 font-size: 25px;
 padding: 1rem;
 margin-top: 2rem;
+text-shadow: 2px 2px orange;
+font-weight: 600;
 }
 
 /* introduction */
 .firstParagraph {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 4rem;
+}
+
+/* img construction in paragraph */
+img.constructionImage.introImg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5rem;
 }
 
 /* workers-img */
@@ -84,7 +112,7 @@ img.workers-img {
 
 /* secondParagraph */
 .secondParagraph {
-    color: orangered;
+    /* color: orangered; */
     padding: 1rem;
     text-align: center;
 }
@@ -92,11 +120,12 @@ img.workers-img {
 /* bulletpoint section */
 .bullet-points {
     background-color: rgb(0, 0, 0, 0.7);
+    position: relative;
 }
 
 h4 {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
     /* color: orangered; */
     color: white;
 }
@@ -194,6 +223,21 @@ button.ctaBtn {
     margin-bottom: 2rem;
     margin-top: -1rem;
 }
+
+/* footer */
+/* footer image */
+img.constructionImage.footerImg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    /* right: 0; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 5rem;
+
+}
+
 /* facebook icon */
 img.facebookImage {
     width: 20px;
@@ -241,7 +285,8 @@ border: inset;
     /* line-height: 20px; */
     /* line-height: 1.5rem; */
     /* line-height: 5vh; */
-    align-items: center
+    align-items: center;
+    position: relative;
 }
 
 h5.llc {
