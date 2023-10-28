@@ -149,6 +149,7 @@ ul {
     color: orangered;
     font-size: 2rem;
     /* padding: 1rem; */
+    margin-bottom: 2rem;
 }
 
 img.materials {
@@ -192,6 +193,7 @@ p.desc {
 .thirdOffer {
     text-align: center;
     margin-bottom: 5rem;
+    position: relative;
 }
 
 button.ctaBtn {
@@ -371,15 +373,15 @@ a {
         width: 5%;
     }
     span.callNow {
-        font-size: 15px;
+        font-size: small;
         /* margin-left: -50px; */
-        margin-left: -5rem;
+        /* margin-left: -5rem; */
     }
     img.constructionBanner {
         height: 40vh;
     }
     .firstParagraph {
-        padding: 2rem;
+        /* padding: 2rem; */
         font-size: 20px;
     }
     .flex {
@@ -393,27 +395,44 @@ a {
         display: flex;
         align-items: center
     }
+
+    h4 {
+        padding-top: 0;
+        padding: 1rem;
+        font-size: 20px;
+    }    
+
+    /* img.constructionImage.introImg {
+        margin-left: 43%;
+    } */
+
     img.blueprint {
-        width: 50%;
+        width: 40%;
+        padding-top: 10%;
+        margin-left: 2%;
     }
     ul {
         padding-bottom: 0;
+        /* padding-top: 5rem; */
+        font-size: 15px;
         margin-left: initial;
 
     }
     /* img materials */
-    .materials {
+    /* .materials {
         margin-top: 2rem;
-    }
+    } */
     .firstOffer {
         position: relative;
+        /* padding: 1rem; */
+        margin-top: 3rem;
     }
     .f {
         display: flex;
     }
     img.materials {
-        width: 50%;
-        margin-left: 20px;
+        width: 40%;
+        margin-left: 5%;
     }
     p.desc {
         font-size: 20px;
@@ -422,28 +441,33 @@ a {
     span.learnMore {
         position: absolute;
         /* top: 0; */
-        margin-top: -5%;
-        margin-left: 18%;
+        /* margin-top: -5%; */
+        margin-left: 14%;
+        bottom: 0;
+        margin-bottom: 30px;
     }
 
     /* quality-work section */
-    .quality-work {
+    /* .quality-work {
         margin-top: 2rem;
-    }
+    } */
     img.quality-work {
-        width: 48.5%;
-        margin-left: 20px;
+        /* width: 48.5%; */
+        width: 40%;
+        margin-left: 5%;
         height: 40vh;
     }
 
     /* cx satisfaction section */
     img.customer-satisfaction {
-        width: 48.5%;
-        margin-left: 20px;
+        /* width: 48.5%; */
+            width: 40%;
+        /* margin-left: 20px; */
+            margin-left: 5%;
     }
-    h5.handshake {
+    /* h5.handshake {
         margin-bottom: 2rem;
-    }
+    } */
 
     /* ul offers */
     ul.offers {
@@ -454,23 +478,27 @@ a {
     }
     /*  button.ctaBtn */
     button.ctaBtn {
-        width: 50%;
-        height: 5rem;
+        width: 20%;
+        height: 3rem;
     }
 
     /*  arrow button */
     .arrow {
-        margin-top: -3rem;
+        margin-top: -2rem;
+        width: 10%;
     }
      /* consultation */
      .consultation {
-        font-size: 1.5rem;
+        font-size: 1rem;
      }
      /* p.nocard */
      p.nocard {
-        font-size: 15px;
-        margin-left: 30%;
-        margin-top: -40px;
+        font-size: 14px;
+        margin-left: 35%;
+        /* margin-top: -30px; */
+     }
+     img.construction-group {
+        width: 50%;
      }
      /* footer */
      /* construction */
@@ -527,9 +555,9 @@ a {
     .navbar-brand {
         margin-right: 5rem;
     }
-    span.callNow {
+    /* span.callNow {
         margin-left: 1rem;
-    }
+    } */
     img.constructionBanner {
         height: 50vh;
     }
@@ -537,13 +565,32 @@ a {
     h4 {
         padding: 1.2rem;
     }
+    /* first paragraph */
+    .firstParagraph {
+        padding: 5rem;
+    }
+
     /*  materials section */
     .secondParagraph {
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
+        font-size: 20px
+    }
+
+    img.constructionImage.introImg {
+        width: 6rem;
+    }
+
+    img.blueprint {
+        width: 50%;
     }
     p.desc {
         font-size: 1.8rem;
     }
+
+    img.materials {
+        width: 50%;
+    }
+
     span.learnMore {
         margin-left: 13%;
     }
@@ -561,16 +608,19 @@ a {
         width: 60%;
     }
     /* cta button */
-    button.ctaBtn {
+    /* button.ctaBtn {
         width: 40%;
-    }
+    } */
     /* arrow */
     .arrow {
-        margin-top: -5rem;
+        margin-top: -2.5rem;
     }
     /* no card */
     p.nocard {
-        margin-top: -60px;
+        /* margin-top: -60px; */
+        margin-top: -40px;
+        margin-left: 37%;
+        font-size: 15px;
     }
 
     /* footer */
