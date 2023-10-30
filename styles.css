@@ -409,13 +409,15 @@ a {
     img.blueprint {
         width: 40%;
         padding-top: 10%;
-        margin-left: 2%;
+        /* margin-left: 2%; */
+        margin-left: auto;
     }
     ul {
         padding-bottom: 0;
         /* padding-top: 5rem; */
         font-size: 15px;
         margin-left: initial;
+        margin-right: auto;
 
     }
     /* img materials */
