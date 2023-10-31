@@ -23,8 +23,17 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 }
 
 .navbar-brand {
-    color: orangered;
+    /* color: orangered; */
+    color: rgb(255, 255, 255);
     font-size: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    /* border-radius: none; */
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }
 
 img.constructionImage {
@@ -37,7 +46,8 @@ div#navbarNavAltMarkup {
 
 .nav-link.active,
 .nav-link {
-    color: orangered !important;
+    /* color: orangered !important; */
+    color: rgb(255, 255, 255) !important;
 }
 
 /* phone image */
@@ -73,12 +83,14 @@ img.constructionBanner {
 /* h1 */
 h1 {
 text-align: center;
-color: orangered;
+/* color: orangered; */
+color: rgb(0, 0, 0);
 font-family: sans-serif;
 font-size: 25px;
 padding: 1rem;
 margin-top: 2rem;
-text-shadow: 2px 2px orange;
+/* text-shadow: 2px 2px orange; */
+text-shadow: 2px 2px rgb(164, 164, 164);
 font-weight: 600;
 }
 
@@ -146,7 +158,7 @@ ul {
 .quality-work,
 .customer-satisfaction {
     text-align: center;
-    color: orangered;
+    /* color: orangered; */
     font-size: 2rem;
     /* padding: 1rem; */
     margin-bottom: 2rem;
@@ -292,7 +304,8 @@ border: inset;
 }
 
 h5.llc {
-    color: orangered;
+    /* color: orangered; */
+    color: rgb(255, 255, 255);
     font-size: 14px;
     text-align: center;
     margin: 0.5rem;
@@ -302,7 +315,8 @@ h5.llc {
 }
 
 a {
-    color: orangered;
+    /* color: orangered; */
+    color: rgb(255, 255, 255);
     text-decoration: none;
     /* display: flex; */
 }
@@ -326,7 +340,8 @@ a {
 
 .location {
     text-align: center;
-    color: orangered;
+    /* color: orangered; */
+    color: rgb(255, 255, 255);
     padding: 1rem;
 }
 
