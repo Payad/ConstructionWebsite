@@ -376,6 +376,10 @@ a {
 
 /* media width 768px */
 @media(min-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
     /* header img */
     img.constructionImage {
         /* width: 20%; */
@@ -387,10 +391,14 @@ a {
     img.phoneImage {
         width: 5%;
     }
+    span.phoneNumber {
+        font-size: 20px;
+    }
     span.callNow {
-        font-size: small;
-        /* margin-left: -50px; */
-        /* margin-left: -5rem; */
+        /* font-size: small;
+        margin-left: -50px;
+        margin-left: -5rem; */
+        font-size: 20px;
     }
     img.constructionBanner {
         height: 40vh;
