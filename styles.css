@@ -44,6 +44,25 @@ div#navbarNavAltMarkup {
     justify-content: flex-end;
 }
 
+/* navbar drop down and number styles */
+button.navbar-toggler {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+/* banner */
+.banner {
+    position: relative;
+    /* top: 0; */
+    
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+}
+
 .nav-link.active,
 .nav-link {
     /* color: orangered !important; */
@@ -55,19 +74,30 @@ div#navbarNavAltMarkup {
     width: 10%;
 } */
 .contact {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    /* display: inline;
+    margin-left: auto; */
+    margin-top: -10px;
 }
 
 /* phone number */
-span.phoneNumber {
+/* span.phoneNumber {
     font-size: x-small;
+    font-size: 5px;
     color: white;
+    padding-right: 2px;
+} */
+button.phoneNumber {
+    background-color: orangered;
+    color: white;
+    border-radius: 5%;
+    font-size: 5px;
 }
 
 /* call now text */
 span.callNow {
-    font-size: 10px;
+    font-size: 5px;
     text-align: center;
     color: white;
     /* margin-left: -10px; */
@@ -86,7 +116,7 @@ text-align: center;
 /* color: orangered; */
 color: rgb(0, 0, 0);
 font-family: sans-serif;
-font-size: 25px;
+/* font-size: 25px; */
 padding: 1rem;
 margin-top: 2rem;
 /* text-shadow: 2px 2px orange; */
@@ -142,9 +172,32 @@ h4 {
     color: white;
 }
 
+.column1, .column2, .column3 {
+    text-align: center;
+}
+
 img.blueprint {
     width: 100%;
     padding: 1rem;
+    margin-top: 4rem;
+}
+
+img.blueprint1 {
+    width: 100%;
+    padding: 1rem;
+    /* margin-top: 2rem; */
+}
+img.blueprint3 {
+    width: 100%;
+    padding: 1rem;
+    /* margin-top: 2rem; */
+}
+
+/* desc1, desc2, desc3 */
+.desc1, .desc2, .desc3 {
+    text-align: center;
+    color: white;
+    /* padding: 1rem; */
 }
 
 ul {
@@ -376,8 +429,17 @@ a {
 
 /* media width 768px */
 @media(min-width: 768px) {
+    .banner {
+        margin-bottom: 1rem;
+        position: relative;
+    }
     h1 {
         font-size: 1.8rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 8rem;
     }
 
     /* header img */
@@ -391,14 +453,27 @@ a {
     img.phoneImage {
         width: 5%;
     }
-    span.phoneNumber {
-        font-size: 20px;
+
+    .flexHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 1.5rem;
+    }
+    .contact {
+        margin-top: initial;
+    }
+    /* span.phoneNumber {
+        font-size: 12px;
+    } */
+    button.phoneNumber {
+        font-size: 10px;
     }
     span.callNow {
         /* font-size: small;
         margin-left: -50px;
         margin-left: -5rem; */
-        font-size: 20px;
+        font-size: 12px;
     }
     img.constructionBanner {
         height: 40vh;
@@ -409,11 +484,19 @@ a {
     }
     .flex {
         display: flex;
-        align-items: center
+        /* align-items: center */
+        /* flex-direction: column;
+        align-items: end;
+        margin-top: 1.5rem; */
     }
     img.workers-img {
         width: 50%;
     }
+
+    .secondParagraph {
+        padding: 3rem;
+    }
+
     .bullet-points {
         display: flex;
         align-items: center
@@ -429,11 +512,41 @@ a {
         margin-left: 43%;
     } */
 
+    .flexBlue {
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+    }    
+
+    .column1, .column2, .column3 {
+        text-align: center;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .desc1, .desc2, .desc3 {
+        padding: 0.2rem;
+    }
+
     img.blueprint {
-        width: 40%;
-        padding-top: 10%;
+        /* width: 39%; */
+        width: 100%;
+        padding-top: 17%;
+        margin-top: 0;
+        /* margin-left: 2%; */
+        /* margin-left: auto; */
+    }
+    img.blueprint1 {
+        /* width: 39%; */
+        width: 100%;
+        padding-top: 16%;
         /* margin-left: 2%; */
         margin-left: auto;
+    }
+    img.blueprint3 {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 10%;
     }
     ul {
         padding-bottom: 0;
@@ -449,27 +562,44 @@ a {
     } */
     .firstOffer {
         position: relative;
-        /* padding: 1rem; */
+        padding: 1rem;
         margin-top: 3rem;
+    }
+    .secondOffer {
+        position: relative;
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+
+    .thirdOffer {
+        padding: 1rem;
     }
     .f {
         display: flex;
     }
-    img.materials {
+    /* img.materials {
         width: 40%;
         margin-left: 5%;
+    } */
+    span.Materials1, span.QualityWork1, span.CustomerSatisfaction1 {
+        display: block;
+        font-weight: 600;
     }
+
     p.desc {
         /* font-size: 20px; */
         margin-top: 2rem;
+        padding: 0 1rem;
     }
     span.learnMore {
         position: absolute;
         /* top: 0; */
         /* margin-top: -5%; */
-        margin-left: 14%;
+        margin-left: 16%;
         bottom: 0;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
+        /* margin-bottom: 65px; */
+        margin-bottom: 80px;
     }
 
     /* quality-work section */
@@ -478,17 +608,17 @@ a {
     } */
     img.quality-work {
         /* width: 48.5%; */
-        width: 40%;
-        margin-left: 5%;
+        width: 51%;
+        /* margin-left: 5%; */
         height: 40vh;
     }
 
     /* cx satisfaction section */
     img.customer-satisfaction {
         /* width: 48.5%; */
-            width: 40%;
+            width: 51%;
         /* margin-left: 20px; */
-            margin-left: 5%;
+            /* margin-left: 5%; */
     }
     /* h5.handshake {
         margin-bottom: 2rem;
@@ -509,7 +639,7 @@ a {
 
     /*  arrow button */
     .arrow {
-        margin-top: -2rem;
+        margin-top: -1.5rem;
         width: 10%;
     }
      /* consultation */

@@ -6,6 +6,8 @@ for (let i = 0; i < learnBtn.length; i++) {
 
 btn.addEventListener('click', (e) => {
     const offers = e.target.parentElement;
+    // btn.display = 'none';
+    e.target.display = 'none';
     // console.log('Hello');
     // if (e.target.classList.contains('materials')) {
     //     // const desc = document.getElementsByClassName('desc materials');
@@ -21,13 +23,17 @@ btn.addEventListener('click', (e) => {
     console.log(pDesc);
     if (pDesc.classList.contains('materials')) {
         // pDesc.style.fontSize = '20px';
-        pDesc.innerHTML = "Construction LLC provides the materials for your project. We have access to high quality materials such as sheet metal, wood, hard plastics, and pvc. We have a wide selection of materials from our supplier that are high quality and ready for the build."
+        const element = document.createElement('span');
+        element.classList.add('Materials1');
+        element.textContent = 'Materials';
+        // pDesc.innerHTML = element;
+        pDesc.innerHTML = '<span class="Materials1">Materials</span>Construction LLC provides the materials for your project. We have access to high quality materials such as sheet metal, wood, hard plastics, and pvc. We have a wide selection of materials from our supplier that are high quality and ready for the build.'
     } else if (pDesc.classList.contains('quality-work')) {
         // pDesc.style.fontSize = '20px';
-        pDesc.innerHTML = "Our high quality work and commitmnet will leave you in awe, once the project is completed. Grade A experience and skills to get the job done right."
+        pDesc.innerHTML = '<span class="QualityWork1">Quality Work</span>Our high quality work and commitmnet will leave you in awe, once the project is completed. Grade A experience and skills to get the job done right.'
     } else if (pDesc.classList.contains('customer-satisfaction')) {
         // pDesc.style.fontSize = '20px';
-        pDesc.innerHTML = "With customer satisfaction in mind, we will always put the customer first. Ask us how we can help guide you through the process. Feel confident when you select our services for your next project."
+        pDesc.innerHTML = '<span class="CustomerSatisfaction1">Customer Satisfaction</span>With customer satisfaction in mind, we will always put the customer first. Ask us how we can help guide you through the process. Feel confident when you select our services for your next project.'
     }
     // if (offers.classList.contains('materials')) {
     //     offers.innerHTML = 'Hello'
