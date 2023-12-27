@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Alegreya SC;
 }
 
 /* Header */
@@ -61,6 +62,7 @@ h1 {
     position: absolute;
     top: 0;
     font-size: 20px;
+    /* font-family: Alegreya SC; */
 }
 
 .nav-link.active,
@@ -115,7 +117,7 @@ h1 {
 text-align: center;
 /* color: orangered; */
 color: rgb(0, 0, 0);
-font-family: sans-serif;
+/* font-family: sans-serif; */
 /* font-size: 25px; */
 padding: 1rem;
 margin-top: 2rem;
@@ -221,6 +223,12 @@ img.materials {
     width: 80%;
     box-shadow: 10px 10px grey;
 }
+
+span.Materials1, span.QualityWork1, span.CustomerSatisfaction1 {
+    display: block;
+    font-weight: 600;
+}
+
 img.quality-work {
     width: 80%;
     box-shadow: 10px 10px grey;
@@ -268,11 +276,14 @@ button.ctaBtn {
     margin-right: 20px;
     border-radius: 5px;
     /* padding: 2px 25px; */
-    box-shadow: 10px 5px;
-    background-color: orangered;
-    border: inset;
+    box-shadow: 10px 5px rgb(0, 0, 0);
+    /* background-color: orangered; */
+    background-color: rgb(255, 60, 0);
+    /* border: inset; */
     width: 30%;
     height: 3rem;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
 }
 
 .consultation {
@@ -340,10 +351,11 @@ p.nocard {
 /* span learn more */
 span.learnMore {
 padding: 5px 15px;
-background-color: orangered;
+background-color: rgb(259, 60, 0);
+color: rgb(255, 255, 255);
 border-radius: 5px;
-box-shadow: 10px 5px;
-border: inset;
+box-shadow: 10px 5px rgb(0, 0, 0);
+/* border: inset; */
 }
 /* Footer */
 .footer {
@@ -381,6 +393,7 @@ a {
     margin-left: 2rem; */
     display: flex;
     justify-content: space-around;
+    padding-top: 5rem;
 }
 
 
@@ -430,7 +443,7 @@ a {
 /* media width 768px */
 @media(min-width: 768px) {
     .banner {
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
         position: relative;
     }
     h1 {
@@ -439,7 +452,7 @@ a {
         top: 0;
         right: 0;
         left: 0;
-        margin-top: 8rem;
+        /* margin-top: 8rem; */
     }
 
     /* header img */
@@ -491,16 +504,17 @@ a {
     }
     img.workers-img {
         width: 50%;
+        padding: 0;
     }
 
     .secondParagraph {
         padding: 3rem;
     }
 
-    .bullet-points {
+    /* .bullet-points {
         display: flex;
         align-items: center
-    }
+    } */
 
     h4 {
         padding-top: 0;
@@ -514,14 +528,16 @@ a {
 
     .flexBlue {
         display: flex;
-        align-items: center;
-        margin-left: 5%;
+        /* align-items: center; */
+        /* margin-left: 5%; */
     }    
 
     .column1, .column2, .column3 {
         text-align: center;
         padding-bottom: 2rem;
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
+        /* margin-top: 2rem; */
+        margin-top: 5rem;
     }
 
     .desc1, .desc2, .desc3 {
@@ -530,24 +546,27 @@ a {
 
     img.blueprint {
         /* width: 39%; */
-        width: 100%;
-        padding-top: 17%;
-        margin-top: 0;
+        /* width: 100%; */
+        /* padding-top: 17%; */
+        /* padding-top: 7%; */
+        /* margin-top: 0; */
+        margin-top: 0.5px;
         /* margin-left: 2%; */
         /* margin-left: auto; */
     }
-    img.blueprint1 {
-        /* width: 39%; */
+    /* img.blueprint1 {
+        width: 39%;
         width: 100%;
         padding-top: 16%;
-        /* margin-left: 2%; */
+        margin-left: 2%;
         margin-left: auto;
     }
     img.blueprint3 {
         width: 100%;
         padding: 1rem;
-        margin-top: 10%;
-    }
+        margin-top: 11%;
+        margin-top: 5%;
+    } */
     ul {
         padding-bottom: 0;
         /* padding-top: 5rem; */
@@ -565,6 +584,12 @@ a {
         padding: 1rem;
         margin-top: 3rem;
     }
+
+    img.materials {
+        width: 35%;
+        margin-left: 5rem;
+    }
+
     .secondOffer {
         position: relative;
         padding: 1rem;
@@ -588,18 +613,19 @@ a {
 
     p.desc {
         /* font-size: 20px; */
-        margin-top: 2rem;
-        padding: 0 1rem;
+        /* margin-top: 2rem; */
+        /* padding: 0 4rem; */
+        padding: 0 3rem;
     }
     span.learnMore {
         position: absolute;
         /* top: 0; */
         /* margin-top: -5%; */
-        margin-left: 16%;
+        margin-left: 14%;
         bottom: 0;
-        /* margin-bottom: 30px; */
+        margin-bottom: 40px;
         /* margin-bottom: 65px; */
-        margin-bottom: 80px;
+        /* margin-bottom: 80px; */
     }
 
     /* quality-work section */
@@ -608,17 +634,18 @@ a {
     } */
     img.quality-work {
         /* width: 48.5%; */
-        width: 51%;
-        /* margin-left: 5%; */
-        height: 40vh;
+        width: 35%;
+        margin-left: 5rem;
+        height: 35vh;
     }
 
     /* cx satisfaction section */
     img.customer-satisfaction {
         /* width: 48.5%; */
-            width: 51%;
+            width: 35%;
+            /* height: 35vh; */
         /* margin-left: 20px; */
-            /* margin-left: 5%; */
+            margin-left: 5rem;
     }
     /* h5.handshake {
         margin-bottom: 2rem;
@@ -693,7 +720,7 @@ a {
 
      /* closed-captions */
      .closed-captions {
-        line-height: 5;
+        line-height: 3;
      }
      /* span.copy */
      span.copy {
@@ -709,6 +736,10 @@ a {
 @media (min-width: 1024px) {
     .navbar-brand {
         margin-right: 5rem;
+    }
+
+    div#navbarNavAltMarkup {
+        font-size: 15px;
     }
     /* span.callNow {
         margin-left: 1rem;
@@ -727,19 +758,20 @@ a {
 
     /*  materials section */
     .secondParagraph {
-        /* font-size: 1.5rem; */
-        font-size: 20px
+        font-size: 1.5rem;
+        /* font-size: 20px */
     }
 
     img.constructionImage.introImg {
         width: 6rem;
     }
 
-    img.blueprint {
-        width: 50%;
-    }
+    /* img.blueprint {
+        width: 100%;
+        padding-top: 10%;
+    } */
     p.desc {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         padding: 1.5rem;
     }
 
@@ -748,16 +780,19 @@ a {
     }
 
     span.learnMore {
-        margin-left: 13%;
+        margin-left: 16%;
     }
     /* quality section */
     img.quality-work {
-        width: 36.5%;
+        /* width: 36.5%; */
+            width: 38%;
+            height: 45vh
     }
 
     /* customer satisfaction */
     img.customer-satisfaction {
-        width: 36.5%;
+        /* width: 36.5%; */
+        width: 38%;
     }
     /* section 4 */
     img.construction-group {
