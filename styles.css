@@ -550,7 +550,8 @@ a {
         /* padding-top: 17%; */
         /* padding-top: 7%; */
         /* margin-top: 0; */
-        margin-top: 0.5px;
+        /* margin-top: 0.5px; */
+        margin-top: 4.5px
         /* margin-left: 2%; */
         /* margin-left: auto; */
     }
@@ -560,13 +561,14 @@ a {
         padding-top: 16%;
         margin-left: 2%;
         margin-left: auto;
-    }
-    img.blueprint3 {
-        width: 100%;
-        padding: 1rem;
-        margin-top: 11%;
-        margin-top: 5%;
     } */
+    img.blueprint3 {
+        /* width: 100%;
+        padding: 1rem;
+        margin-top: 11%; */
+        /* margin-top: 5.4%; */
+        margin-top: 4.3px;
+    }
     ul {
         padding-bottom: 0;
         /* padding-top: 5rem; */
